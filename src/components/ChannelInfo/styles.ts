@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Props } from '.'
 
 export const Channel = styled.div<Props>`
-  padding: 10px;
+  padding: 6px;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -13,6 +13,10 @@ export const Channel = styled.div<Props>`
   height: 42px;
 
   cursor: pointer;
+
+  &:hover{
+    background-color: #26262C;
+  }
 
   img{
     border-radius: 50%;
